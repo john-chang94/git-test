@@ -8,6 +8,15 @@
   justify-content: center;
 }
 
-ul li a {
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+ul li, ul li a {
   text-decoration: none;
 }
